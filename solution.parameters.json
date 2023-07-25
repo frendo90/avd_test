@@ -1,0 +1,21 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "Location": {
+            "value": "France Cnetral"
+        },
+        "NamePrefix": {
+            "value": "VM-RTA-AVD"
+        },
+        "NumberOfVms": {
+            "value": 1
+        },
+        "ScriptUri": {
+            "value": "https://github.com/frendo90/avd_test/blob/acbdec55837e9c955109d2f16da6a40da7714288/host_perso_2.ps1"
+        },
+        "VirtualMachineIndex": {
+            "value": 4
+        }
+    }
+}
